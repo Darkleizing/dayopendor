@@ -35,6 +35,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* H1 */
+
+h1 {
+	font-size: 20px;
+	color: #000;	
+}
+
 /* Container */
 
 .container {
@@ -222,4 +229,34 @@ time, mark, audio, video {
 	transform: translate3d(-10px, -50%, 0px);
 
 	transition: opasity .2s;
+}
+
+.about__services {
+	display: flex;
+
+	left: 10px;
+}
+
+.about__services__item {
+	flex-direction: row;
+	justify-content: flex-start;
+
+	padding-left: 90px;
+}
+
+
+.about__services__title {
+	padding-left: 20px;
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	color: #e8a45b;
+	text-transform: uppercase;
+}
+
+.about__services__text {
+	padding-left: 10px;
+
+	font-size: 15px;
+	color: #999;
 }
