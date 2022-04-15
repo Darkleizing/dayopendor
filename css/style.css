@@ -1,3 +1,8 @@
+/* гле видишь color, можешь менять, если нужно */
+/* font-size тоже можешь менять */
+/* Нужны другие шрифты? иди на Googl fonts, не еби мозги ни мне, ни себе */
+
+
 body {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
@@ -35,8 +40,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* H1 */
-
+/* H1  */
+/* нужен для изменения заголовка в списке профессий (<h1>Основной вид деятельности:</h1>) */
 h1 {
 	font-size: 20px;
 	color: #000;	
