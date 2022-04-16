@@ -1,12 +1,14 @@
 /* гле видишь color, можешь менять, если нужно */
-/* font-size тоже можешь менять */
-/* Нужны другие шрифты? иди на Googl fonts, не еби мозги ни мне, ни себе */
 
+
+/* font-size тоже можешь менять */
+
+
+/* Нужны другие шрифты? иди на Googl fonts, не еби мозги ни мне, ни себе */
 
 body {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
-
     font-size: 15px;
     line-height: 1.6;
     color: black;
@@ -19,33 +21,106 @@ body {
     box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
+
 /* H1  */
+
+
 /* нужен для изменения заголовка в списке профессий (<h1>Основной вид деятельности:</h1>) */
+
 h1 {
-	font-size: 20px;
-	color: #000;	
+    font-size: 20px;
+    color: #000;
 }
+
 
 /* Container */
 
@@ -55,213 +130,199 @@ h1 {
     margin: 0 auto;
 }
 
+
 /* Header */
 
 .header {
     width: 100%;
     padding-top: 25px;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1000;
-	margin-bottom: 100;
-    background: linear-gradient(to bottom, #0066ff ,#00ccff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: 100;
+    background: linear-gradient(to bottom, #0066ff, #00ccff);
 }
 
 .header__inner {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
-	font-size: 30px;
-	font-weight: 700;
-	color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
 }
 
 .header__logo__1 {
     font-size: 35px;
-
     display: inline-block;
-	vertical-align: top;
-	margin: 0 15px;
+    vertical-align: top;
+    margin: 0 15px;
 }
+
 
 /* Intro */
 
 .intro {
     display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .intro__title {
-	color: #eba456;
-	font-size: 120px;
-	font-weight: 700; 
-	text-transform: uppercase; 
-	text-align: center; 
-	line-height: 1px;
+    color: #eba456;
+    font-size: 120px;
+    font-weight: 10000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1px;
 }
 
 .intro__title:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	margin: 60px auto;
-
-	background-color: #000;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+    background-color: #000;
 }
 
 .intro__inner {
-	width: 100%;
-	max-width: 880px;
-	margin: 0 auto;
-
-	text-align: center;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .intro__suptitle {
-	color: #000;
-	font-size: 72px;
-	font-family: 'Nunito', sans-serif;
-
-	text-transform: uppercase;
-	line-height: 1;
+    color: #000;
+    font-size: 72px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
 }
+
 
 /* Section */
 
 .section {
-	padding: 80px 0;
-
+    padding: 80px 0;
 }
 
 .section__header {
-	width: 100%;
-	max-width: 950px;
-	margin: 0 auto 40px;
-
-	text-align: center;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
 }
 
 .section__title {
-	font-size: 35px;
-	font-weight: 700;
-	color: #000;
-	text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
 }
 
 .section__suptitle {
-	font-size: 24px;
-	color: #000;
-	font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
 }
 
 .section__title:after {
-	content: " ";
-	display: block;
-	width: 60px;
-	height: 3px;
-	margin: 30px auto;
-
-	background-color: #f38181;
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
 }
 
 .section__text {
-	color: #000;
-	font-size: 15px;
+    color: #000;
+    font-size: 15px;
 }
+
 
 /* About */
 
 .about {
-	margin-top: 80px;
-	display: flex ;
-	justify-content: space-between;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about__item {
-	width: 340px;
-	position: relative;
-
-	background-color: #add9e6;
+    width: 340px;
+    position: relative;
+    background-color: #add9e6;
 }
 
 .about__item:hover .about__img {
-	transform: translate3d(-10px, -10px, 0px);
+    transform: translate3d(-10px, -10px, 0px);
 }
 
 .about__item:hover .about__img img {
-	opacity: .2;
+    opacity: .2;
 }
 
 .about__item:hover .about__text {
-	opacity: 1;
+    opacity: 1;
 }
 
 .about__img {
-	background: linear-gradient(to bottom, #ff5050, #eba456);
-
-	transition: transform .2s linear;
+    background: linear-gradient(to bottom, #ff5050, #eba456);
+    transition: transform .2s linear;
 }
 
 .about__img img {
-	display: block;
-	transition: opaсity .1s linear;
+    display: block;
+    transition: opaсity .1s linear;
 }
 
 .about__text {
-	width: 100%;
-
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 18px;
-	text-align: center;
-	opacity: 0;
-
-	position: absolute;
-	top: 50%;
-	left: 0;
-	z-index: 2;
-	transform: translate3d(-10px, -50%, 0px);
-
-	transition: opasity .2s;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(-10px, -50%, 0px);
+    transition: opasity .2s;
 }
 
 .about__services {
-	display: flex;
-
-	left: 10px;
+    display: flex;
+    left: 10px;
 }
 
 .about__services__item {
-	flex-direction: row;
-	justify-content: flex-start;
-
-	padding-left: 90px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 90px;
 }
 
-
 .about__services__title {
-	padding-left: 20px;
-	margin-bottom: 10px;
-
-	font-size: 14px;
-	color: #e8a45b;
-	text-transform: uppercase;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #e8a45b;
+    text-transform: uppercase;
 }
 
 .about__services__text {
-	padding-left: 10px;
-
-	font-size: 15px;
-	color: #999;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #999;
 }
