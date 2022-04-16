@@ -12,7 +12,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     color: black;
-    background-color: #fff;
+    background: rgb(255, 255, 255);
 }
 
 *,
@@ -21,95 +21,26 @@ body {
     box-sizing: border-box;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 
 /* H1  */
 
@@ -117,8 +48,12 @@ video {
 /* нужен для изменения заголовка в списке профессий (<h1>Основной вид деятельности:</h1>) */
 
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
+}
+
+h6 {
+	padding-top: 15px;
 }
 
 
@@ -176,6 +111,8 @@ h1 {
 }
 
 .intro__title {
+	padding-top: 20px;
+
     color: #eba456;
     font-size: 120px;
     font-weight: 10000;
@@ -220,6 +157,8 @@ h1 {
     max-width: 950px;
     margin: 0 auto 40px;
     text-align: center;
+
+	background-color: #eeffff;
 }
 
 .section__title {
@@ -261,7 +200,8 @@ h1 {
 .about__item {
     width: 340px;
     position: relative;
-    background-color: #add9e6;
+
+	background-color: #add9e6;
 }
 
 .about__item:hover .about__img {
@@ -311,18 +251,20 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 90px;
+
+	background-color: #197b99;
 }
 
 .about__services__title {
     padding-left: 20px;
     margin-bottom: 10px;
-    font-size: 14px;
-    color: #e8a45b;
+    font-size: 20px;
+    color: #de8c34;
     text-transform: uppercase;
 }
 
 .about__services__text {
     padding-left: 10px;
-    font-size: 15px;
-    color: #999;
+    font-size: 14px;
+    color: rgb(92, 91, 91);
 }
