@@ -1,290 +1,251 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
-    <title>DayOpenDor</title>
+    <title>КНГК</title>
+    <!-- ----ссылки---- -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--  -->
 </head>
+<body class="transition-all duration-200">
+  <!-- шапка -->
 
-<body>
-
-    <header>
-        <div class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <div class="header__logo">Касимовский нефтегазовый колледж</div>
-                    <div class="header__logo__1">КНГК</div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="intro">
-        <div class="container">
-            <div class="intro__inner">
-                <h2 class="intro__title">Приветствуем</h2>
-                <!-- Тут должен указать приветствие м кто этим говном занимался  -->
-                <h6 class="intro__suptitle">Здесь ты можешь</h6>
-                <h6 class="intro__suptitle">найти свое будущее</h6>
-                <!-- Тут продолжение приветствия-->
-            </div>
-
-        </div>
-        <div class="thumb-wrap">
-
-        </div>
+  <nav class="bg-black px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="#" class="flex items-center">
+        <img src="http://kngk62.ru/wp-content/uploads/2015/07/kngk-logo8.png" alt="КНГК" width="100" height="126">
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full lg:block md:w-auto" id="navbar-default">
+        <ul class="bg-black flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Главная</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">О колледже</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Абитуриентам</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Сведения об образовательной организации</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Контакты</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  
+  <!--  -->
 
-    <div class="section">
-        <div class="container">
-            <!-- Смотри ниже -->
-            <div class="section__header">
-                <h3 class="section__suptitle">Специальности</h3>
-                <h4 class="section__title">Краткая информация</h4>
+  <!-- основной контент -->
+  <main>
+    <!-- баннер -->
+    <section
+  class="relative bg-[url(http://kngk62.ru/wp-content/uploads/2021/03/img_6934.jpg)] bg-cover bg-center bg-no-repeat"
+>
+  <div
+    class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/75 sm:to-white/25"
+  ></div>
 
-                <div class="section__text">
-                    <p>*Областное государственное бюджетное профессиональное образовательное учреждение "Касимовский нефтегазовый колледж"</p>
-                </div>
-            </div>
-            <!-- Здесь распологпется шапка, в которой пишется мол есть у нас такие распиздатые профессии и так далее (не суть важно где из *** будешь писать, главное что бы смотрелось хорошо) -->
-            <div class="about">
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    <div class="max-w-2xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl uppercase">
+        Здесь ты можешь
 
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/1.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                    <!-- (заполняется у всех таких же ниже) тут заполняется следующее: уровень обучения; срок обучения; форма обучения; квалификация (всё на сайте кнгк) -->
-                </div>
+        <strong class="block font-extrabold text-rose-700">
+          Найти свое будущее!
+        </strong>
+      </h1>
 
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">15.02.12 Монтаж,техническое обслуживание и ремонт промышленного оборудования (по отраслям)</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> <p>монтаж, пусконаладочные работы, испытания, техническое обслуживание и ремонт оборудования предприятий нефтегазовой отрасли; осуществление приемки, технического обслуживания и ремонта оборудования;
-                            проведение стандартных и сертифицированных испытаний объектов техники; осуществление контроля соответствия технических характеристик смонтированного оборудования и систем требований технической документации; выявление дефектов
-                            работы оборудования и систем и их устранение, оформление дефектных ведомостей; обеспечение экологической безопасности при эксплуатации оборудования и систем нефтегазовой отрасли.</p></div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
+      <p class="mt-4 max-w-xl font-normal sm:text-lg sm:leading-relaxed">
+        Выбирая наш колледж, вы гарантированно получаете среднее профессиональное образование, которое открывает вам дороги в самые разные технические сферы!
+      </p>
 
-            </div>
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="#"
+          class="block w-full rounded bg-rose-600 px-12 py-3 text-lg font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        >
+          Присоединиться!
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--  -->
 
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/2.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">21.02.03 Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> сооружение и эксплуатация объектов транспорта и хранения газа, нефти и нефтепродуктов, контроль за их состоянием; выполнение расчетов технологических процессов и режимов работы оборудования с
-                            использованием необходимых методов, технических средств и информационных технологий; ремонтно-техническое обслуживание оборудования;</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/3.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">21.02.02 Бурение нефтяных и газовых скважин</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> составление геолого- технологического наряда на бурение скважин; проведение буровых работ в соответствии с разработанным технологическим процессом: ; подбор инструмента и бурового оборудования
-                            для проводки скважин; контроль параметров буровых и тампонажных растворов, регулирование их свойств; устранение осложнений и аварийных ситуаций на скважине;</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/4.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: бухгалтер</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">38.02.01 Экономика и бухгалтерский учет (по отраслям)</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> ведение бухгалтерского учета имущества, обязательств и хозяйственных операций; отражение на счетах бухгалтерского учета операций, связанных с движением основных средств, товарно- материальных
-                            ценностей и денежных средств; начисление и перечисление налогов и сборов в федеральный, региональный и местный бюджеты, в государственные внебюджетные социальные фонды, платежей в банковские учреждения, средств на финансирование
-                            капитальных вложений, заработной платы рабочих и служащих, других выплат и платежей; обеспечение руководителей, кредиторов, инвесторов, аудиторов и других заинтересованных пользователей бухгалтерской отчетности сопоставимой
-                            и достоверной бухгалтерской информацией по соответствующим направлениям (участкам) учета; проведение инвентаризации денежных средств, товарно- материальных ценностей и обязательств; подготовка данных по соответствующим участкам
-                            бухгалтерского учета для составления отчетности; использование компьютерных технологий в учетно-аналитической деятельности;</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 2 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/5.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">23.02.07 Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> техническое обслуживание и ремонт автомобильного транспорта и транспортного оборудования в соответствии с требованиями нормативно-технических документов; выбор узлов и агрегатов автомобиля для
-                            замены в процессе эксплуатации автомобильного транспорта; проведение работ по техническому обслуживанию и ремонту транспорта; эффективное использование материалов, технологического оборудования предприятий; наладка и эксплуатация
-                            оборудования для технического обслуживания и ремонта транспортных средств; осуществление технического контроля при эксплуатации транспорта и транспортного оборудования; проведение стандартных и сертифицированных испытаний;
-                            участие в обеспечении экологической безопасности эксплуатации, хранения, обслуживания, ремонта транспорта и транспортного оборудования.</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/6.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: специалист по информационным системам</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">09.02.07 Информационные системы и программирование</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> Осуществление интеграции программных модулей; Ревьюирование программных продуктов; Проектирование и разработка информационных систем; Сопровождение информационных систем; Соадминистрирование
-                            баз данных и серверов</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/7.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">15.04.06 Литейное производство черных и цветных металлов</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1>анализ предметной области с точки зрения автоматизации обработки информации; формализация задачи по автоматизированной обработке информации; разработка технологического процесса автоматизированной
-                            обработки информации на основе типовых решений; определение состава необходимых информационно- программных и аппаратных средств; разработка компонентов типового информационно-программного обеспечения автоматизированных информационных
-                            систем; адаптация и внедрение типовых технологических процессов автоматизированной обработки информации; настройка типовых компонентов обеспечения автоматизированных информационных систем и компьютерных сетей.</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/8.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">08.02.01 Строительство и эксплуатация зданий и сооружений</div>
-                        <div class="about__services__text">
-                            <h1>Основной вид деятельности:</h1> осуществление строительно-монтажных работ в соответствии с проектом, рабочими чертежами, требованиями нормативных документов и сроками сдачи объектов; контролирование технологической последовательности
-                            производства строительно-монтажных работ; устранение нарушений технологий и обеспечение качества строительно-монтажных работ; соблюдение требований техники безопасности и охраны труда на строительных объектах.</div>
-                        <div class="about__services__text">
-                            <h1> Срок обучения: 3 года 10 месяцев.</h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/9.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник-технолог</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">18.02.09 Переработка нефти и газа</div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="about">
-
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="images/10.jpg" height="220px" width="340px" alt="">
-                    </div>
-                    <div class="about__text">Квалификация: техник</div>
-                </div>
-
-                <div class="about__services">
-                    <div class="about__services__iten">
-                        <div class="about__services__title">08.02.08 Монтаж и эксплуатация оборудования и систем газоснабжения</div>
-                    </div>
-                </div>
-
-            </div>
+    <!-- объявление -->
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+          <div class="max-w-xl mb-6">
+            <h2 class="max-w-2xl mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              День открытых дверей
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+              Здесь вы можете ознакомиться со всеми специальностями в рамках учебной программы Областного государственного бюджетного профессионально образовательного учреждения "Касимовский нефтегазовый колледж"
+            </p>
+          </div>
 
         </div>
+        <div class="flex items-center justify-center -mx-4 lg:pl-8">
+          <div class="flex flex-col items-end px-3">
+            <img
+              class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+              src="http://kngk62.ru/wp-content/uploads/2021/03/img_6922.jpg"
+              alt=""
+            />
+            <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="http://kngk62.ru/wp-content/uploads/2021/03/img_6922.jpg" alt="" />
+          </div>
+          <div class="px-3">
+            <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="http://kngk62.ru/wp-content/uploads/2021/03/img_6922.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
+    <!--  -->
 
+    <!-- специальности --> 
+    <section class="text-gray-600 body-font overflow-hidden">
+      <p class="text-center text-4xl">Специальности и формы обучения</p>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap m-2 sm:m-4 lg:m-12">
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">15.02.12</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Монтаж,техническое обслуживание и  ремонт промышленного оборудования (по отраслям) </h2>
+            <p class="leading-relaxed mb-8">Производственно- технологическая — монтаж, пусконаладочные работы, испытания, техническое обслуживание и ремонт оборудования предприятий нефтегазовой отрасли; осуществление приемки, технического обслуживания и ремонта оборудования; проведение стандартных и сертифицированных испытаний объектов техники; осуществление контроля соответствия технических характеристик смонтированного оборудования и систем требований технической документации; выявление дефектов работы оборудования и систем и их устранение, оформление дефектных ведомостей; обеспечение экологической безопасности при эксплуатации оборудования и систем нефтегазовой отрасли.</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">21.02.03</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ</h2>
+            <p class="leading-relaxed mb-8">Производственно- технологическая:сооружение и эксплуатация объектов транспорта и хранения газа, нефти и нефтепродуктов, контроль за их состоянием; выполнение расчетов технологических процессов и режимов работы оборудования с использованием необходимых методов, технических средств и информационных технологий; ремонтно-техническое обслуживание оборудования;Организационно-управленческая:организация работы коллектива исполнителей на основе современных теорий о производственных отношениях; планирование и организация производственных работ; выбор оптимальных решений при планировании работ в условиях нестандартных ситуаций; участие в оценке экономической эффективности производственной деятельности; обеспечение промышленной и экологической безопасности на производственном объекте.</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">21.02.02</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Бурение нефтяных и газовых скважин</h2>
+            <p class="leading-relaxed mb-8">Производственно- технологическая — составление геолого- технологического наряда на бурение скважин; проведение буровых работ в соответствии с разработанным технологическим процессом: ; подбор инструмента и бурового оборудования для проводки скважин; контроль параметров буровых и тампонажных растворов, регулирование их свойств; устранение осложнений и аварийных ситуаций на скважине;
+            Организационно-управленческая – организация работы коллектива исполнителей на основе современных теорий о производственных отношениях; планирование и организация производственных работ в условиях нестандартных ситуаций; участие в оценке экономической эффективности производственной деятельности; обеспечение промышленной и экологической безопасности на производственном участке.</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">38.02.01</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Экономика и бухгалтерский учет (по отраслям)</h2>
+            <p class="leading-relaxed mb-8">Учетно-аналитическая — ведение бухгалтерского учета имущества, обязательств и хозяйственных операций; отражение на счетах бухгалтерского учета операций, связанных с движением основных средств, товарно- материальных ценностей и денежных средств; начисление и перечисление налогов и сборов в федеральный, региональный и местный бюджеты, в государственные внебюджетные социальные фонды, платежей в банковские учреждения, средств на финансирование капитальных вложений, заработной платы рабочих и служащих, других выплат и платежей; обеспечение руководителей, кредиторов, инвесторов, аудиторов и других заинтересованных пользователей бухгалтерской отчетности сопоставимой и достоверной бухгалтерской информацией по соответствующим направлениям (участкам) учета; проведение инвентаризации денежных средств, товарно- материальных ценностей и обязательств; подготовка данных по соответствующим участкам бухгалтерского учета для составления отчетности; использование компьютерных технологий в учетно-аналитической деятельности;</p>
+            <p><span class="font-bold">Срок обучения:</span> 2 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">23.02.07</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей</h2>
+            <p class="leading-relaxed mb-8">Производственно-технологическая — техническое обслуживание и ремонт автомобильного транспорта и транспортного оборудования в соответствии с требованиями нормативно-технических документов; выбор узлов и агрегатов автомобиля для замены в процессе эксплуатации автомобильного транспорта; проведение работ по техническому обслуживанию и ремонту транспорта; эффективное использование материалов, технологического оборудования предприятий; наладка и эксплуатация оборудования для технического обслуживания и ремонта транспортных средств; осуществление технического контроля при эксплуатации транспорта и транспортного оборудования; проведение стандартных и сертифицированных испытаний; участие в обеспечении экологической безопасности эксплуатации, хранения, обслуживания, ремонта транспорта и транспортного оборудования.</p>
+            <p><span class="font-bold">Срок обучения:</span> 2 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">09.02.07</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Информационные системы и программирование</h2>
+            <p class="leading-relaxed mb-8">Cуществление интеграции программных модулей   
+
+              Ревьюирование программных продуктов
+              
+              Проектирование и разработка информационных систем 
+              
+              Сопровождение информационных систем
+              
+              Соадминистрирование баз данных и серверов</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">15.04.06</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Литейное производство черных и цветных металлов</h2>
+            <p class="leading-relaxed mb-8">Производственно- технологическая —  анализ предметной области с точки зрения автоматизации обработки информации; формализация задачи по автоматизированной обработке информации; разработка технологического процесса автоматизированной обработки информации на основе типовых решений; определение состава необходимых информационно- программных и аппаратных средств; разработка компонентов типового информационно-программного обеспечения автоматизированных информационных систем; адаптация и внедрение типовых технологических процессов автоматизированной обработки информации; настройка типовых компонентов обеспечения автоматизированных информационных систем и компьютерных сетей.</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">08.02.01</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Строительство и эксплуатация зданий и сооружений</h2>
+            <p class="leading-relaxed mb-8">Производственно- технологическая: осуществление строительно-монтажных работ в соответствии с проектом, рабочими чертежами, требованиями нормативных документов и сроками сдачи объектов; контролирование технологической последовательности производства строительно-монтажных работ; устранение нарушений технологий и обеспечение качества строительно-монтажных работ; соблюдение требований техники безопасности и охраны труда на строительных объектах.</p>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">18.02.09</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Переработка нефти и газа</h2>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+          <div class="p-5 md:w-1/2 flex flex-col items-start">
+            <span class="inline-block py-1 px-2 rounded bg-rose-200 text-rose-700 text-xl font-medium tracking-widest">08.02.08</span>
+            <h2 class="sm:text-2xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">Монтаж и эксплуатация оборудования и систем газоснабжения</h2>
+            <p><span class="font-bold">Срок обучения:</span> 3 года 10 месяцев.</p>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </section>
+    <!--  -->
+  </main>
+  <!--  -->
+
+  <!-- отзыв -->
+  <div class="mx-auto max-w-5xl px-4 py-8">
+    <section class="rounded-lg bg-gray-100 p-8">
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+        <img
+          alt="Man"
+          src="https://sun1-98.userapi.com/impg/gmzTpgayh9hp2hBXjGehZkxiVDF9aCCB1JNTrQ/r4Uld-xtbmM.jpg?size=1080x718&quality=95&sign=07410586bd74c2fb28b63bfe6cf3c699&type=album"
+          class="aspect-square w-full rounded-lg object-cover"
+        />
+  
+        <blockquote class="sm:col-span-2">
+          <p class="text-xl font-light sm:text-2xl">
+            Я всем сердцем рекомендую данное учебное заведение, ведь именно здесь поистине могут раскрыть весь учебный потенциал, а также опробовать себя в самых различных сферах деятельности.
+          </p>
+  
+          <cite class="mt-8 inline-flex items-center not-italic">
+            <span class="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
+            <div>
+              <p class="text-sm uppercase text-gray-500 sm:ml-3">
+                <strong>Максим Орлов</strong>, Студент группы 20И-1.
+              </p>
+              <p class="px-7 font-extralight text-xs">Данный дизайн был разработан за 1 день :Р</p>
+
+            </div>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+  </div>
+  
+  <!--  -->
+
+  <!-- подвал -->
+<footer class="container-fluid mx-auto p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-center md:p-6 dark:bg-gray-800">
+  <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 1896-2022 <a href="https://flowbite.com/" class="hover:underline"><span class="font-semibold">КНГК.</span> Все права защищены.
+  </span>
+</footer>
+
+  <!--  -->
+
+  <!-- script -->
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </body>
-
 </html>
