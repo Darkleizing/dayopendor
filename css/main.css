@@ -2161,6 +2161,11 @@ input:checked + .toggle-bg {
     line-height: 1;
   }
 
+  .md\:text-7xl {
+    font-size: 5rem;
+    line-height: 1;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
