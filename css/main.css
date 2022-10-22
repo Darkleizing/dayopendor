@@ -2196,6 +2196,11 @@ input:checked + .toggle-bg {
     line-height: 2rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:leading-relaxed {
     line-height: 1.625;
   }
