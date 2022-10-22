@@ -1293,12 +1293,16 @@ input:checked + .toggle-bg {
   max-width: 1280px;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
+.max-w-4xl {
+  max-width: 56rem;
 }
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .max-w-5xl {
@@ -1538,10 +1542,6 @@ input:checked + .toggle-bg {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
-}
-
-.bg-\[url\(http\:\/\/kngk62\.ru\/wp-content\/uploads\/2021\/03\/img_6934\.jpg\)\] {
-  background-image: url(http://kngk62.ru/wp-content/uploads/2021/03/img_6934.jpg);
 }
 
 .bg-cover {
@@ -2161,11 +2161,6 @@ input:checked + .toggle-bg {
     line-height: 1;
   }
 
-  .md\:text-7xl {
-    font-size: 5rem;
-    line-height: 1;
-  }
-
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2253,6 +2248,11 @@ input:checked + .toggle-bg {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .md\:text-lg {
